@@ -49,7 +49,8 @@ body {
 .about-us,
 .meet-our-team,
 .services,
-.work {
+.work,
+.contact {
   padding: 0 125px;
   margin: 0; }
 
@@ -303,3 +304,50 @@ p.work__txt {
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap; }
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center; }
+
+p.contact__txt {
+  padding: 10px;
+  font-size: 16px;
+  font-family: Open-sans-reg;
+  color: #6c6c6c;
+  font-style: italic;
+  line-height: 1.5;
+  text-align: center;
+  width: 65%; }
+
+.contact-content {
+  width: 65%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+
+.contact-content-block--50 {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 45%;
+  margin: 10px; }
+
+.contact-content-block--50 input {
+  height: 25px; }
+
+.contact-content-block--100 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  margin: 10px; }
+
+.contact-content-block--100 input {
+  height: 250px; }
+
+.contact-content button {
+  margin: 10px;
+  padding: 10px 25px; }
