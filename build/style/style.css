@@ -273,7 +273,8 @@ p.services__txt {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  align-items: center; }
+  align-items: center;
+  background-color: #eee; }
 
 p.work__txt {
   padding: 10px;
