@@ -13,6 +13,9 @@
 a {
   text-decoration: none; }
 
+a:visited {
+  color: inherit; }
+
 body {
   margin: 0;
   padding: 0; }
@@ -44,6 +47,12 @@ body {
 .title__line {
   margin: 5px; }
 
+.link__home {
+  position: fixed;
+  left: 100px;
+  bottom: 50px;
+  padding: 10px 25px; }
+
 .header,
 .home,
 .about-us,
@@ -69,7 +78,7 @@ body {
     padding: 0; }
 
 .header_nav {
-  width: 50%;
+  width: 30%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -81,6 +90,9 @@ body {
   font-size: 14px;
   font-family: Lato-reg;
   color: #fff; }
+
+.header_nav__btn:hover {
+  color: #e8aa4e; }
 
 .home {
   height: 690px;
