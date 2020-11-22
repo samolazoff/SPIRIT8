@@ -1,0 +1,25 @@
+{
+  "name": "spirit8",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000S\u0000P\u0000I\u0000R\u0000I\u0000T\u00008\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samolazoff/SPIRIT8.git"
+  },
+  "author": "Samolazoff Roman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samolazoff/SPIRIT8/issues"
+  },
+  "homepage": "https://github.com/samolazoff/SPIRIT8#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-pug": "^4.0.1",
+    "gulp-sass": "^4.1.0"
+  },
+  "dependencies": {}
+}

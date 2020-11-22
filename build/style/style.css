@@ -1,0 +1,269 @@
+@font-face {
+  font-family: 'Lato-reg';
+  src: url("../static/font/Lato-Regular.ttf"); }
+
+@font-face {
+  font-family: 'Open-sans-reg';
+  src: url("../static/font/OpenSans-Regular.ttf"); }
+
+@font-face {
+  font-family: 'myradpro-reg';
+  src: url("../static/font/myradpro-reg.otf"); }
+
+a {
+  text-decoration: none; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 1500px; }
+
+.title {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.title__txt {
+  font-size: 44px;
+  color: #222222;
+  font-family: Open-sans-reg;
+  font-weight: lighter; }
+
+.title__txt-bold {
+  font-weight: bold; }
+
+.title__line {
+  margin: 5px; }
+
+.header,
+.home,
+.about-us,
+.meet-our-team,
+.services {
+  padding: 0 125px;
+  margin: 0; }
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #111111; }
+  .header h1 {
+    font-size: 24px;
+    font-family: Lato-reg;
+    color: #fff;
+    margin: 55px 15px;
+    padding: 0; }
+
+.header_nav {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px 15px;
+  padding: 0;
+  color: #fff; }
+
+.header_nav__btn {
+  font-size: 14px;
+  font-family: Lato-reg;
+  color: #fff; }
+
+.home {
+  height: 690px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #111111; }
+
+.home_title {
+  font-size: 44px;
+  color: #989898; }
+
+.home_title__color {
+  font-weight: bold;
+  color: #e8aa4e; }
+
+.home_subtitle {
+  font-size: 20px;
+  color: #989898; }
+
+.home_subtitle__color {
+  font-weight: bold;
+  color: #fff; }
+
+.about-us {
+  height: 610px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff; }
+
+.about-us_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; }
+
+.about-us_title {
+  font-size: 20px;
+  color: #636363;
+  padding: 10px; }
+
+.about-us_subtitle {
+  font-size: 34px;
+  color: #222222;
+  padding: 10px; }
+
+.about-us_subtitle__border {
+  border-bottom-style: solid;
+  border-bottom-width: 5px;
+  border-color: #fcac45; }
+
+.about-us_subtitle__bold {
+  font-weight: bold; }
+
+.about-us_text {
+  padding: 10px;
+  font-size: 18px;
+  color: #6c6c6c;
+  font-family: Open-sans-reg; }
+
+.about-us_list {
+  font-size: 18px;
+  color: #5a5a5a;
+  list-style-image: url(../static/img/about-us-list-icon.jpg); }
+
+.about-us_item__title {
+  font-weight: bold; }
+
+.about-us_item__subtitle {
+  font-style: italic; }
+
+.about-us_link {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px;
+  padding: 10px;
+  color: #5a5a5a;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 7%;
+  border-bottom-color: #5a5a5a; }
+  .about-us_link img {
+    padding: 5px; }
+
+.meet-our-team {
+  height: 725px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #070707; }
+
+.mot__title {
+  padding: 10px;
+  font-size: 44px;
+  color: #8b8b8b;
+  font-family: Open-sans-reg;
+  font-weight: lighter; }
+
+.mot__title-bold {
+  font-weight: bold;
+  color: #fff; }
+
+.mot__title-border {
+  border-bottom-style: solid;
+  border-bottom-width: 5px;
+  border-color: #fcac45; }
+
+.mot-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+.content-block {
+  width: 25%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: #fff; }
+
+.bloc__img {
+  width: 125px;
+  height: 125px;
+  border-radius: 50%; }
+
+.block__names {
+  font-family: myradpro-reg;
+  font-size: 18px;
+  font-weight: bold; }
+
+.block__comit {
+  font-family: myradpro-reg;
+  font-size: 18px; }
+
+.block__txt {
+  padding: 25px;
+  text-align: center;
+  font-size: 14px;
+  font-family: Open-sans-reg; }
+
+.services {
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center; }
+
+p.services__txt {
+  padding: 10px;
+  font-size: 16px;
+  font-family: Open-sans-reg;
+  color: #6c6c6c;
+  font-style: italic;
+  line-height: 1.5;
+  text-align: center; }
+
+.services-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+  .services-content .content-block {
+    padding: 10px;
+    color: #222222; }
+
+.block-img {
+  width: 125px;
+  height: 125px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin: 10px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #fcac45;
+  border-radius: 50%; }
+
+.block__name {
+  text-transform: uppercase; }
+
+.block__txt {
+  padding: 20px; }
