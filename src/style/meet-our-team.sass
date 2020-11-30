@@ -1,27 +1,24 @@
 .meet-our-team
-    height: 725px
     display: flex
     flex-direction: column
     justify-content: space-around
     align-items: center
     background-color: #070707
+    .title__txt
+        color: #8b8b8b
+    .title__txt-bold
+        color: #fff
 .mot__title
     padding: 10px
     font-size: 44px
     color: #8b8b8b
     font-family: Open-sans-reg
     font-weight: lighter
-.mot__title-bold
-    font-weight: bold
-    color: #fff
-.mot__title-border
-    border-bottom-style: solid
-    border-bottom-width: 5px
-    border-color: #fcac45
 .mot-content
     display: flex
     flex-direction: row
     justify-content: space-between
+
 .content-block
     width: 25%
     height: 300px
@@ -46,4 +43,47 @@
     text-align: center
     font-size: 14px
     font-family: Open-sans-reg
+.mot-slider
 
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+.mot-slider-dots
+    display: flex
+    flex-direction: row
+    justify-content: center
+    align-items: center
+    margin-bottom: 25px
+.square
+    width: 10px
+    height: 10px
+    margin: 5px
+    background-color: #ffffff
+    border-style: solid
+    border-bottom-width: 1px
+    border-color: #070707
+.square:hover
+    border-style: solid
+    border-bottom-width: 1px
+    border-color: #fcac45
+
+#mot_slider_2,
+#mot_slider_3
+    display: none
+#mot-sq-1
+    background-color: #fcac45
+.content-block
+    animation: change-width 3s linear none alternate
+@keyframes change-width
+    0%
+        opacity: 0
+    25%
+       opacity: 0.3
+    50%
+        opacity: 0.5
+    75%
+        opacity: 0.8
+    100%
+        opacity: 1
+        
